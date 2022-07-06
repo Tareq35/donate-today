@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(images/donation13.jpg) no-repeat center;
+    background: url(../images/donation13.jpg) no-repeat center;
     background-size: cover;
     height: 580px;
     overflow: hidden;
@@ -92,4 +92,79 @@ body {
     border: none;
     border-bottom: 1px solid #DADADA;
     margin-bottom: 30px;
+}
+.donate-plan{
+    text-align: center;
+}
+.donate-plan h1{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+.donate-plan p{
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 50px;
+}
+.plans{
+    display: flex;
+    justify-content: center;
+}
+.plan1{ 
+    width: 360px;
+    height: 352px;
+    padding-top: 65px;
+    padding-left: 23px;
+    background-color: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    margin-right: 24px;
+}
+.plan1 h3{
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 31px;
+    padding-bottom: 16px;
+}
+.plan1 p{
+    font-size: 16px;
+    color: #707070;
+}
+.plan2{ 
+    width: 360px;
+    height: 352px;
+    padding-top: 65px;
+    padding-left: 23px;
+    background-color: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    margin-right: 24px;
+}
+.plan2 h3{
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 31px;
+    padding-bottom: 16px;
+}
+.plan2 p{
+    font-size: 16px;
+    color: #707070;
+}
+.plan3{ 
+    width: 360px;
+    height: 352px;
+    padding-top: 65px;
+    padding-left: 23px;
+    background-color:  #FFF4D6;
+    border-radius: 5px;
+    margin-right: 24px;
+}
+.plan3 h3{
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 31px;
+    padding-bottom: 16px;
+}
+.plan3 p{
+    font-size: 16px;
+    color: #707070;
 }
