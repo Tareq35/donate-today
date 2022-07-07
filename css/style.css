@@ -6,6 +6,9 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+
+/* top banner section  */
+
 .top-banner{
     display: flex;
     justify-content: center;
@@ -45,6 +48,9 @@ body {
     text-decoration: none;
     color: white;
 }
+
+/* donate today section  */
+
 .donate-today{
     text-align: center;
     margin-top: 130px;
@@ -93,6 +99,9 @@ body {
     border-bottom: 1px solid #DADADA;
     margin-bottom: 30px;
 }
+
+/* donate plan section  */
+
 .donate-plan{
     text-align: center;
 }
@@ -165,6 +174,42 @@ body {
     font-size: 16px;
     color: #707070;
 }
+
+/* News section */
+
+.news-section{
+    margin-top: 150px;
+    text-align: center;
+}
+.news{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.news-item{
+    width: 30%;
+}
+.news-item img{
+    width: 70%;
+}
+.headline{
+    padding: 10px 80px 10px 10px;
+}
+.headline h4{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+.headline p{
+    font-size: 16px;
+    color: #707070;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+/* pdates section */
+
 .my-updates{
     text-align: center;
     margin-top: 130px;
@@ -205,6 +250,9 @@ body {
     text-decoration: none;
     color: white;
 }
+
+/* footer section */
+
 .footer{
     background-color: #0B0D17;
     height: 177px;
